@@ -3,7 +3,7 @@ import { filterPerks, getPerk, createPerk, updatePerk, deletePerk, getAllPerks} 
 
 const router = Router();
 
-router.get('/', filterPerks);
+router.get('/', filterPerks);// /api/perks
 router.get('/all', getAllPerks);
 router.get('/:id', getPerk);
 router.post('/', createPerk);

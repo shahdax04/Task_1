@@ -8,7 +8,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 app.get('/api/health', (req, res) => res.json({ ok: true }));
-app.use('/api/perks', perkRoutes);
+app.use('/api/perks', perkRoutes);//dawar fel routes bta3et perks lw galak perks
 
 // Not found
 app.use((req, res, next) => {

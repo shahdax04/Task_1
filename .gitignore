@@ -21,3 +21,9 @@ yarn-error.log*
 # Server-side specific ignores (if server is in a subfolder)
 server/node_modules/
 server/build/
+.vs/
+*.vsidx
+*.user
+*.suo
+bin/
+obj/
